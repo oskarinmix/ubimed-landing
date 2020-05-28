@@ -1,0 +1,31 @@
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: flex-between;
+  align-items: flex-start;
+  padding: 50px;
+  background: url("/img/fondo-1 (2).png") no-repeat top center;
+  background-size: cover;
+  .content {
+    color: white;
+    ul {
+      margin-left: 50px;
+      li {
+        padding: 10px 20px;
+        font-size: 25px;
+      }
+    }
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    p {
+      width: 80%;
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+  img {
+    height: 100%;
+  }
+}

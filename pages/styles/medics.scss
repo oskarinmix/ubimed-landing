@@ -1,0 +1,109 @@
+.medics {
+  padding: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  p {
+    width: 100%;
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 50px 0px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+
+  // background: linear-gradient(
+  //     0deg,
+  //     rgba(16, 50, 59, 0.9),
+  //     rgba(16, 50, 59, 0.9)
+  //   ),
+  //   url("/img/252732-P45ALE-576.jpg") no-repeat center;
+  // background-size: cover;
+  background-color: #fff;
+  color: $azul;
+  .content {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: $azul;
+    .agenda {
+      background: url("/img/agenda.png") no-repeat center;
+      background-size: cover;
+      color: $azul;
+      &:hover {
+        background: linear-gradient(
+            0deg,
+            rgba(16, 50, 59, 0.8) 0%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(16, 50, 59, 0.8) 100%
+          ),
+          url("/img/agenda.png") no-repeat center;
+        background-size: cover;
+        color: $azul;
+        font-weight: 700;
+        transform: scale(1.05);
+      }
+    }
+    .consulta {
+      background: url("/img/consulta.png") no-repeat center;
+      background-size: cover;
+      color: $azul;
+      &:hover {
+        background: linear-gradient(
+            0deg,
+            rgba(16, 50, 59, 0.8) 0%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(16, 50, 59, 0.8) 100%
+          ),
+          url("/img/consulta.png") no-repeat center;
+        background-size: cover;
+        color: $azul;
+        font-weight: 700;
+        transform: scale(1.05);
+      }
+    }
+
+    .historia {
+      background: url("/img/historial.svg") no-repeat center;
+      background-size: cover;
+      color: $azul;
+      &:hover {
+        background: linear-gradient(
+            0deg,
+            rgba(16, 50, 59, 0.8) 0%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(16, 50, 59, 0.8) 100%
+          ),
+          url("/img/historial.svg") no-repeat center;
+        background-size: cover;
+        color: $azul;
+        font-weight: 700;
+        transform: scale(1.05);
+      }
+    }
+    div {
+      margin-top: 25px;
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.9),
+        rgba(34, 181, 240, 0.9)
+      );
+      color: $azul;
+      height: 200px;
+      padding: 10px;
+      border-radius: 50px;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.hero {
+  height: 600px;
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: url("/img/fondo-3 (1).png") no-repeat top center;
+  background-size: cover;
+  color: #2f4f4f;
+  p {
+    width: 75%;
+    text-align: center;
+    font-size: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 400px;
+    padding: 40px;
+
+    p {
+      font-size: 20px;
+      width: 85%;
+    }
+    h1 {
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 578px) {
+  .hero {
+    padding: 20px;
+    p {
+      font-size: 20px;
+      width: 85%;
+    }
+    h1 {
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .hero {
+    margin: 0;
+    padding: 0px 20px;
+
+    p {
+      width: 90%;
+      font-size: 15px;
+      width: 85%;
+    }
+    h1 {
+      font-size: 15px;
+    }
+  }
+}
+// @media (max-width: 768px){}

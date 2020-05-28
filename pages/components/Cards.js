@@ -26,7 +26,7 @@ const Cards = () => {
           <div className="round">3</div>
           <h1>Realiza el pago</h1>
           <p>
-            Realiza los pagos de tus consultas directamente a tu profesional o
+            Realiza el pago de tus consultas directamente a tu profesional o
             institución tratante
           </p>
           <img src="/img/card3.png" />
@@ -35,7 +35,7 @@ const Cards = () => {
           <div className="round">4</div>
           <h1>Videoconsulta</h1>
           <p>
-            En videollamada puedes recibir, imágenes,documentos y videos que
+            En videoconsulta puedes recibir, imágenes,documentos y videos que
             serán parte de tu historia clínica
           </p>
           <img src="/img/card4.png" />

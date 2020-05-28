@@ -12,12 +12,16 @@ const TopHeader = () => {
       <div className="top-header" id="inicio">
         <div className="contact">
           <p>
-            <i className="fas fa-phone"></i>
-            <a href="tel:+573128772788"> +57 312 8772788</a>
+            <a href="tel:+573128772788">
+              <i className="fas fa-phone"></i>
+              <span>+57 312 8772788</span>
+            </a>
           </p>
           <p>
-            <i className="fas fa-envelope"></i>
-            <a href="mailto:contacto@ubimed.com.co">contacto@ubimed.com.co</a>
+            <a href="mailto:contacto@ubimed.com.co">
+              <i className="fas fa-envelope"></i>
+              <span>contacto@ubimed.com.co</span>
+            </a>
           </p>
         </div>
         <div className="socials">

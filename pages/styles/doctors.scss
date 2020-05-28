@@ -1,0 +1,35 @@
+.doctors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .doctors-content {
+    img {
+      width: 50%;
+    }
+    .text {
+      margin: 15px;
+      padding: 20px;
+      h1,
+      h2,
+      h3 {
+        text-align: right;
+        color: $green;
+      }
+      H3 {
+        color: #9f9f9f;
+      }
+      p {
+        padding-top: 10px;
+        color: #9f9f9f;
+        text-align: right;
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+  }
+}

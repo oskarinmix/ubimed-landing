@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <React.Fragment>
-      <div className="contact" id="contacto">
+      <div className="contact-section" id="contacto">
         <div className="form">
           <form>
             <h1>Contacto:</h1>
@@ -14,7 +14,11 @@ const Contact = () => {
             </p>
             <input type="text" placeholder="Correo Electrónico" />
             <input type="text" placeholder="Teléfono de Contacto" />
-            <textarea type="text" placeholder="Escriba su Mensaje" />
+            <textarea
+              type="text"
+              placeholder="Escriba su Mensaje"
+              style={{ resize: "none" }}
+            />
             <button type="button">Enviar Mensaje</button>
           </form>
         </div>

@@ -15,18 +15,33 @@ const Header = ({ session, id }) => {
         <div className="menu-nav">
           <ul>
             <li>
-              <a href="#inicio">Inicio</a>
+              <a href="/">Inicio</a>
             </li>
-            <li>
-              <a href="#servicios">Servicios </a>
-              <i className="fa fa-chevron-down"></i>
-            </li>
+            <div className="submenu">
+              <li>
+                Servicios
+                <i className="fa fa-chevron-down"></i>
+              </li>
+              <div className="post-submenu">
+                <li>
+                  <a href="/telemedicina">Telemedicina</a>
+                </li>
+                <li>Consultoría</li>
+              </div>
+            </div>
+
             <li>
               <a href="#contacto">Contacto</a>
             </li>
-            <li>
-              <a href="#soporte">Soporte</a>
-            </li>
+            <div className="submenu">
+              <li>
+                <i class="fas fa-ellipsis-h"></i>
+              </li>
+              <div className="post-submenu">
+                <li>Soporte</li>
+                <li>PQRS</li>
+              </div>
+            </div>
           </ul>
           {session && <button> Iniciar Sesión</button>}
         </div>

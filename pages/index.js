@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import "./styles/index.scss";
 import TopHeader from "./components/TopHeader";
 import Header from "./components/Header";
@@ -11,18 +10,23 @@ import Contact from "./components/Contact";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import BotonHero from "./components/BotonHero";
+import Telemedicine from "./components/telemedicine";
 export default function Home() {
   return (
     <React.Fragment>
       <TopHeader />
       <Header session={true} />
       <Hero />
+      <Telemedicine />
       <BotonHero />
-      <Doctors />
-      <Services />
-      <Banner />
-      <Contact />
       <Cards />
+      {/*
+
+        <Doctors />
+        <Services />
+        <Banner />
+      */}
+      <Contact />
       <Footer />
     </React.Fragment>
   );

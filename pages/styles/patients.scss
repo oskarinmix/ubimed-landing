@@ -1,0 +1,116 @@
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+  background-color: $green;
+  color: white;
+  box-shadow: 2px 2px 2px 2px white;
+  h1 {
+    font-size: 40px;
+    text-shadow: 5px 5px 5px $azul;
+  }
+  p {
+    margin: 0px 20px;
+    font-size: 30px;
+    padding: 20px 0px;
+    color: $azul;
+    font-weight: 700;
+    border-bottom: 3px solid $azul;
+  }
+  .buttons {
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    button {
+      margin: 0px 20px;
+      background-color: $azul;
+      color: white;
+      padding: 20px 30px;
+      border-radius: 50px;
+      font-size: 30px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 5px 5px 10px aliceblue;
+      &:hover {
+        box-shadow: 5px 5px 10px aliceblue;
+      }
+    }
+  }
+}
+.title-dark {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+  background-color: $azul;
+  color: white;
+  h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 3px $green;
+  }
+  p {
+    font-size: 30px;
+    padding: 20px;
+    color: $azul;
+    font-weight: 700;
+  }
+  .buttons {
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    button {
+      margin: 0px 20px;
+      background-color: $green;
+      color: white;
+      padding: 20px 30px;
+      border-radius: 50px;
+      font-size: 30px;
+      font-weight: 700;
+      cursor: pointer;
+      text-shadow: 2px 2px 3px $azul;
+      &:hover {
+        color: $azul;
+        box-shadow: 4px 4px 4px aliceblue;
+        text-shadow: 2px 2px 3px white;
+      }
+    }
+  }
+}
+.patients {
+  padding: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 700;
+  h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px $azul;
+  }
+  li {
+    text-align: left;
+    padding: 10px;
+  }
+  .interactive {
+    width: 50%;
+    padding: 15px;
+  }
+  justify-content: center;
+
+  color: $azul;
+  background: linear-gradient(
+      0deg,
+      rgba(65, 226, 150, 0.4),
+      rgba(65, 226, 150, 0.4)
+    ),
+    url("/img/patients.jpg") no-repeat center;
+  background-size: cover;
+}

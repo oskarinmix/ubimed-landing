@@ -1,0 +1,72 @@
+.services {
+  a {
+    text-decoration: none;
+    color: $green;
+    padding-left: 5px;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  padding: 50px;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  justify-content: flex-end;
+  background: url("/img/dra.png") no-repeat 0% 100%;
+  background-size: 35%;
+  .nav {
+    width: 20%;
+    background-color: $green;
+    height: 250px;
+    ul {
+      width: 100%;
+      height: 100%;
+      list-style-type: none;
+      cursor: pointer;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        color: white;
+        font-size: 25px;
+        &:hover {
+          background-color: $azul;
+        }
+      }
+    }
+  }
+  .content {
+    width: 60%;
+    background-color: $azul;
+    padding: 20px;
+    height: 80%;
+    color: white;
+    .hidden {
+      display: none;
+    }
+    .inner-content {
+      border-left: 4px solid $green;
+      height: 100%;
+      padding: 30px;
+      text-align: center;
+      position: relative;
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        padding-top: 50px;
+        font-size: 25px;
+        line-height: 40px;
+      }
+      img {
+        position: absolute;
+        bottom: -20%;
+        left: 0;
+        right: 0;
+        width: 100%;
+      }
+    }
+  }
+}
