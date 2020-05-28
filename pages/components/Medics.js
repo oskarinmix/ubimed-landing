@@ -29,18 +29,18 @@ const Medics = () => {
           </div>
           <div className="agenda">Gestionar tu agenda </div>
           <div className="historia"> Diligenciar la Historia clínica </div>
-          <div> Obtener el consentimiento informado de tus pacientes </div>
-          <div>
+          <div className="consulta"> Obtener el consentimiento informado de tus pacientes </div>
+          <div className="agenda">
             Puedes enviar y recibir fotos, imágenes, documentos y videos, estos
             serán parte integral de la historia clínica
           </div>
-          <div>
+          <div className="historia">
             Podrás agendar y gestionar las juntas médicas que requieras, hasta
             10 participantes
           </div>
-          <div> Podrás ser interoperable con otras Historias Clínicas </div>
-          <div> Podrás validar tu firma electrónica </div>
-          <div>
+          <div className="consulta"> Podrás ser interoperable con otras Historias Clínicas </div>
+          <div className="agenda"> Podrás validar tu firma electrónica </div>
+          <div className="historia">
             Recibir los pagos de las videoconsultas, teleconsultas y cuotas
             moderadoras de tus pacientes
           </div>

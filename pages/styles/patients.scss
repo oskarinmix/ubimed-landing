@@ -13,7 +13,7 @@
   }
   p {
     margin: 0px 20px;
-    font-size: 30px;
+    font-size: 28px;
     padding: 20px 0px;
     color: $azul;
     font-weight: 700;
@@ -102,6 +102,35 @@
   .interactive {
     width: 50%;
     padding: 15px;
+  }
+  ul {
+    background-color: rgba(255, 255, 255, 0.3);
+    list-style-type: none;
+    padding: 20px;
+    li {
+      border-top: 1px solid $azul;
+      &:first-child {
+        border-top: 0px solid $azul;
+      }
+    }
+
+    li::before {
+      content: "\2714"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: $green; /* Change the color */
+      font-weight: bold; /* If you want it to be bold */
+      display: inline-block; /* Needed to add space between the bullet and the text */
+      width: 1.3em; /* Also needed for space (tweak if needed) */
+      margin-left: -1.3em; /* Also needed for space (tweak if needed) */
+      background: rgb(0, 202, 255);
+      background: linear-gradient(
+        180deg,
+        rgba(0, 202, 255, 1) 0%,
+        rgba(65, 226, 150, 1) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 4px 4px 4px $azul;
+    }
   }
   justify-content: center;
 

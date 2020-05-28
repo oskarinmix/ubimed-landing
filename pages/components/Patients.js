@@ -25,6 +25,10 @@ const Patients = () => {
               durante tu videoconsulta y estos serán parte integral de tu
               historia clínica
             </li>
+          </ul>
+        </div>
+        <div className="interactive">
+          <ul>
             <li>
               Podrás tener copia de tu historia clínica, tu consentimiento
               informado, formula e incapacidades y recomendaciones en el correo

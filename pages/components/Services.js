@@ -21,9 +21,9 @@ const Services = () => {
         <div className="nav">
           <ul>
             <li onClick={() => setIndex(0)}>Consultoría</li>
-            <li onClick={() => setIndex(1)}>Asesoría</li>
+            {/*<li onClick={() => setIndex(1)}>Asesoría</li>
             <li onClick={() => setIndex(2)}>Telemonitoreo</li>
-            <li onClick={() => setIndex(3)}>Telemedicina</li>
+            <li onClick={() => setIndex(3)}>Telemedicina</li>*/}
           </ul>
         </div>
         <div className="content">
@@ -46,6 +46,7 @@ const Services = () => {
             </p>
             <img src="/img/ff94e221a48e008963df083babb4fb2d.png" />
           </div>
+          {/*
           <div className="inner-content hidden">
             <h1>Asesoría</h1>
             <p>
@@ -98,7 +99,7 @@ const Services = () => {
               </a>
             </p>
             <img src="/img/ff94e221a48e008963df083babb4fb2d.png" />
-          </div>
+          </div>*/}
         </div>
       </div>
     </React.Fragment>

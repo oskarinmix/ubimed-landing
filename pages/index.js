@@ -20,10 +20,10 @@ export default function Home() {
       <Telemedicine />
       <BotonHero />
       <Cards />
+      <Services />
       {/*
 
         <Doctors />
-        <Services />
         <Banner />
       */}
       <Contact />
