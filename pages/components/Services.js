@@ -17,7 +17,7 @@ const Services = () => {
   }, [index]);
   return (
     <React.Fragment>
-      <div className="services" id="servicios">
+      <div className="services" id="consultoria">
         <div className="nav">
           <ul>
             <li onClick={() => setIndex(0)}>Consultoría</li>

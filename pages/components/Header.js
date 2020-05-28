@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 const Header = ({ session, id }) => {
   return (
     <React.Fragment>
@@ -10,12 +11,14 @@ const Header = ({ session, id }) => {
       </Head>
       <div className="header" id={id ? id : ""}>
         <div className="logo">
-          <img src="/img/logo.png" alt="logo" />
+          <Link href="/">
+            <img src="/img/logo.png" alt="logo" />
+          </Link>
         </div>
         <div className="menu-nav">
           <ul>
             <li>
-              <a href="/">Inicio</a>
+              <Link href="/">Inicio</Link>
             </li>
             <div className="submenu">
               <li>
@@ -24,14 +27,14 @@ const Header = ({ session, id }) => {
               </li>
               <div className="post-submenu">
                 <li>
-                  <a href="/telemedicina">Telemedicina</a>
+                  <Link href="/telemedicina">Telemedicina</Link>
                 </li>
-                <li>Consultoría</li>
+                <li><Link href="/#consultoria">Consultoría</Link></li>
               </div>
             </div>
 
             <li>
-              <a href="#contacto">Contacto</a>
+              <Link href="/#contacto">Contacto</Link>
             </li>
             <div className="submenu">
               <li>
