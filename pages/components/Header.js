@@ -27,23 +27,33 @@ const Header = ({ session, id }) => {
               </li>
               <div className="post-submenu">
                 <li>
-                  <Link href="/telemedicina">Telemedicina</Link>
+                  <Link href="/telemedicina">
+                    <a>Telemedicina</a>
+                  </Link>
                 </li>
-                <li><Link href="/#consultoria">Consultoría</Link></li>
+                <li>
+                  <Link href="/#consultoria">
+                    <a>Consultoría</a>
+                  </Link>
+                </li>
               </div>
             </div>
 
             <li>
-              <Link href="/#contacto">Contacto</Link>
+              <Link href="/#contacto">
+                <a>Contacto</a>
+              </Link>
             </li>
             <div className="submenu">
               <li>
-                <i class="fas fa-ellipsis-h"></i>
+                <i className="fas fa-ellipsis-h"></i>
               </li>
-              <div className="post-submenu">
-                <li>Soporte</li>
-                <li>PQRS</li>
-              </div>
+              {session && (
+                <div className="post-submenu">
+                  <li>Soporte</li>
+                  <li>PQRS</li>
+                </div>
+              )}
             </div>
           </ul>
           {session && <button> Iniciar Sesión</button>}

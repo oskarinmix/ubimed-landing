@@ -19,15 +19,15 @@ export default function Home() {
       <Hero />
       <Telemedicine />
       <BotonHero />
-      <Cards />
-      <Services />
       {/*
-
+        <Cards />
+        <Services />
+        
         <Doctors />
         <Banner />
+        <Contact />
+        <Footer />
       */}
-      <Contact />
-      <Footer />
     </React.Fragment>
   );
 }

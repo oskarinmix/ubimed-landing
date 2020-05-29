@@ -7,6 +7,11 @@ $azul: #10323b;
   box-sizing: border-box;
   font-family: "VisbyCF", sans-serif;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 button,
 input {
   background: none;
